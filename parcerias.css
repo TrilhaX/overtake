@@ -85,7 +85,7 @@ a {
     padding: 2px;
     border: 13px solid;
     border-radius: 10px;
-    color: blueviolet;
+    color: rgb(158, 28, 28);
 }
 .laray{
     border: 4px rgb(223, 44, 68);
@@ -97,4 +97,14 @@ a {
     position: absolute;
     left: 1.5px;
     top: 100px;
+}
+.laraytext{
+    color: #00fff2;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 0px 0px #000000;
+    position: absolute;
+    top: 130px;
+    right: 340px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,italic ;
 }

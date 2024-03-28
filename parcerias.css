@@ -1,0 +1,100 @@
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: "Abril Fatface", serif;
+  }
+.imagemfundo{
+    position: absolute;
+    height: 130vh;
+    width: 99vw;
+    left: 0;
+    top: 6%;
+    filter: blur(8px);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 40px;
+    background-color: black;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+header a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+hr {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    height: 0.5vh;
+    background-color: white;
+}
+
+.Home {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    display: flex;
+    gap: 72px;
+    padding: 4.5px;
+    position: absolute;
+    top: 1%;
+    left: 62.7%;
+}
+
+.logindiscordborda {
+    border: 2px solid;
+    border-color: rgb(128, 0, 255);
+    background-color: 0;
+    color: aliceblue;
+    border-radius: 30px;
+    width: 10vw;
+    position: absolute;
+    top: 2%;
+}
+
+.discordlogin {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:blueviolet;
+}
+.meio {
+    background: #000;
+    width: 60vw;
+    height: 90vh;
+    position: absolute;
+    top: 20%;
+    left: 19%;
+    padding: 2px;
+    border: 13px solid;
+    border-radius: 10px;
+    color: blueviolet;
+}
+.laray{
+    border: 4px rgb(223, 44, 68);
+    border-style: double double double solid;
+    display: flex;
+    width: 59.5vw;
+    height: 50vh;
+    border-radius: 10px;
+    position: absolute;
+    left: 1.5px;
+    top: 100px;
+}

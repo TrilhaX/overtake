@@ -1,0 +1,218 @@
+    body {
+        background-color: black;
+    }
+
+    .imagemfundo {
+        display: flex;
+        position: absolute;
+        height: 120vh;
+        width: 99vw;
+        left: 0;
+        top: 6%;
+        filter: blur(10px);
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 40px;
+        background-color: black;
+    }
+    
+    header ul {
+        display: flex;
+        gap: 30px;
+        list-style: none;
+    }
+    
+    header a {
+        color: blueviolet;
+        text-decoration: none;
+    }
+    
+    .hrembaixo {
+        position: absolute;
+        top: 5%;
+        left: 0;
+        right: 0;
+        height: 0.5vh;
+        background-color: white;
+    }
+    
+    .Home {
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        display: flex;
+        gap: 72px;
+        padding: 4.5px;
+        position: absolute;
+        top: 1%;
+        left: 62.7%;
+    }
+    
+    .logindiscordborda {
+        border: 2px solid;
+        border-color: rgb(128, 0, 255);
+        background-color: 0;
+        color: aliceblue;
+        border-radius: 30px;
+        width: 10vw;
+        position: absolute;
+        top: 2%;
+    }
+    
+    .discordlogin {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    a {
+        text-decoration: none;
+        color:blueviolet;
+    }
+
+    .todo {
+        height: 95vh;
+        width: 99vw;
+        position: absolute;
+        top: 6.5%;
+        left: 0;
+    }
+
+    .meio {
+        display: flex;
+        width: 60vw;
+        height: 95vh;
+        position: absolute;
+        top: 20%;
+        left: 19%;
+        border: 10px solid;
+        border-radius: 10px;
+        background-color: rgb(34, 2, 65);
+        color: blueviolet;
+    }
+
+    .fundotitulo {
+        display: flex;
+        width: 32vw;
+        height: 35vh;
+        position: absolute;
+    }
+
+    .titulo {
+        color: blueviolet;
+        position: absolute;
+        font-family: "Abril Fatface", serif;
+        font-size: 80px;
+        left: 13%;
+        top: 12%;
+    }
+
+    .botões {
+        width: 28vw;
+        height: 20vh;
+        position: absolute;
+        left: 7%;
+        top: 50%;
+    }
+
+    .discordbordabotão {
+        border: 1px solid;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        position: absolute;
+        top: 20%;
+        left: 14%;
+        width: 7vw;
+        height: 5vh;
+    }
+
+    .dashboardbordabotão {
+        border: 1px solid;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        position: absolute;
+        top: 20%;
+        left: 52%;
+        width: 7vw;
+        height: 5vh;
+    }
+
+    .dashboard {
+        width: 7vw;
+        height: 5vh;
+        text-align: center;
+        position: absolute;
+        font-size: 20px;
+        top: 25%;
+    }
+
+    .imagemdiscord {
+        width: 1.5vw;
+        height: 2vh;
+        position: absolute;
+        top: 25.5%;
+        left: 5%;
+    }
+
+    .discord {
+        position: absolute;
+        text-align: right;
+        left: 35%;
+        top: 23%;
+        font-size: 20px;
+    }
+
+    .logosection {
+        display: flex;
+        width: 30vw;
+        height: 35vh;
+        position: absolute;
+        left: 55%;
+        top: 0;
+    }
+
+    .logoimagem {
+        width: 22vw;
+        height: 25vh;
+        position: absolute;
+        right: 24%;
+        top: 10%;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px;
+        color: rgba(255, 255, 255, 0.336);
+    }
+
+    .meiodaborda {
+        width: 50vw;
+        height: 54vh;
+        position: absolute;
+        display: flex;
+        top: 37%;
+        left: 9%;
+        border: 5px solid;
+        border-radius: 20px;
+        background-color: rgb(0, 0, 0);
+        color: blueviolet;
+    }
+
+    .textomeiaborda {
+        width: 48vw;
+        height: 50vh;
+        position: absolute;
+        top: 3.9%;
+        left: 1.92%;
+    }
+
+    .fundomeiaborda p {
+        margin: 5px;
+        padding: 0 10px 0 10px;
+        font-size: 40px;
+        position: absolute;
+        text-align: center;
+        top: 3.5%;
+        left: 3%;
+    }

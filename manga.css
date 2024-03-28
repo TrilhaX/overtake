@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    font-family: "Abril Fatface", serif;
+}
+
+.imagemfundo {
+    display: flex;
+    position: absolute;
+    height: 120vh;
+    width: 99vw;
+    left: 0;
+    top: 6%;
+    filter: blur(10px);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 40px;
+    background-color: black;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+header a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.hrembaixo {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    height: 0.1vh;
+    background-color: white;
+}
+
+.Home {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    display: flex;
+    gap: 72px;
+    padding: 4.5px;
+    position: absolute;
+    top: 1%;
+    left: 60%;
+}
+
+.logindiscordborda {
+    border: 2px solid;
+    border-color: rgb(128, 0, 255);
+    background-color: 0;
+    color: aliceblue;
+    border-radius: 30px;
+    width: 10vw;
+    position: absolute;
+    top: 2%;
+}
+
+.discordlogin {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:blueviolet;
+}
